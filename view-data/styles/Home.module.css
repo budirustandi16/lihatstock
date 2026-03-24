@@ -1,0 +1,40 @@
+.container {
+  padding: 20px;
+  font-family: Arial;
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.search {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.table th {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.table tr:nth-child(even) {
+  background: #f2f2f2;
+}
